@@ -1,0 +1,2 @@
+Media Throughput,Read/Write Ratio,Initial Data Size,Disk Space Required (Read),Disk Space Required (Write),Bandwidth Required (Read),Bandwidth Required (Write),Transfer Time
+1.0 Gbps,50:50,1.0 TB,62.5 MBps,62.5 MBps,500.0 Mbps,500.0 Mbps,2 hours 13 minutes 20.0 seconds seconds
