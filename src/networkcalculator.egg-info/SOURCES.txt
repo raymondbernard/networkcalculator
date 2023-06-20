@@ -4,13 +4,15 @@ pyproject.toml
 setup.cfg
 setup.py
 src/cidr/__init__.py
-src/cidr/networkcalculator.py
+src/cidr/network_calculator.py
+src/cidr/network_calculator_test.py
 src/feeds/__init__.py
 src/feeds/bandwidth_calculator.py
+src/feeds/bandwidth_calculator_test.py
 src/networkcalculator.egg-info/PKG-INFO
 src/networkcalculator.egg-info/SOURCES.txt
 src/networkcalculator.egg-info/dependency_links.txt
 src/networkcalculator.egg-info/top_level.txt
 src/tests/__init__.py
 src/tests/bandwidth_calculator_test.py
-src/tests/networkcalculator_test.py
+src/tests/network_calculator.py
