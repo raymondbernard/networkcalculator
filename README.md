@@ -40,7 +40,7 @@ pip install networkcalculator
 ### how to use the code 
 ```python 
 
-from cidr.networkcalculator  import Network_Calculator
+from cidr.network_calculator  import Network_Calculator
 
 # Use it like this:
 ip_list = ['198.51.100.0/22 ', '192.168.1.10/26', '172.16.0.5/16']

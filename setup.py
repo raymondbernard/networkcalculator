@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='networkcalculator',
-    version='0.0.4',
+    version='1.0.5',
     author='Ray Bernard',
     author_email='ray.bernard@outlook.com',
     description='A network calculator package',
