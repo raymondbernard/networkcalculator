@@ -1,6 +1,7 @@
 # Network Calculator
 
 ### The What and Why of Network Calculations
+
 In networking, IP addresses and subnet masks are crucial for defining the structure and reach of the network. However, doing these calculations manually can be cumbersome and error-prone. This is where Python, with its vast library support and simplicity, can be a lifesaver.
 
 In this article, we'll delve into a Python class called I have created called the 'NetworkCalculator'. It is designed to automate common network calculation tasks. To fully understand this, it is recommended you have some basic knowledge of IP addresses, subnet masks, network IDs, broadcast IDs, and CIDR notation. There are a tone of online resources to help your understanding. 
@@ -30,6 +31,7 @@ get_last_ip(): Returns the last usable IP address in the network, which is one l
 get_total_ips(): Returns the total number of usable IP addresses in the network.
 ```
 
+## Installation
 ```python
 
 pip install networkcalculator
@@ -63,20 +65,24 @@ Network_Calculator.write_to_csv(ip_list, 'network.csv')
 |                 |                 |              |              |                |              |                |           |
 
 ### Bandwidth Calculator  
+In an era where data is being transferred in vast amounts and at high speeds, understanding bandwidth needs and capacity is an essential aspect of network management and application performance. A Bandwidth Calculator is a tool that helps you estimate the bandwidth needed to move a specific amount of data within a specific timeframe. In this article, we will delve into a Python code that creates a Bandwidth Calculator, designed to help you predict your bandwidth needs accurately.
+
+The Bandwidth Calculator we are focusing on takes in four parameters: the throughput, the read percentage, the write percentage, and the initial data size. The Bandwidth Calculator is instantiated from the Bandwidth_Calculator class from the feeds.bandwidth_calculator module
 
 ```python
 from feeds.bandwidth_calculator import Bandwidth_Calculator
 
-
 # Create a BandwidthCalculator object
 
-bc = Bandwidth_Calculator('1 Gbps', 50, 50, '1 TB') # thoughtput , reads %, writes /%, Initial data size 
+bc = Bandwidth_Calculator('1 Gbps', 50, 50, '1 TB') # Throughput , reads %, writes /%, Initial data size 
 
 # Write the results to a CSV file
 bc.write_to_csv('feeds.csv')
 
-
 ```
+
+
+### Output 
 
 | Media Throughput | Read/Write Ratio | Initial Data Size | Disk Space Required (Read) | Disk Space Required (Write) | Bandwidth Required (Read) | Bandwidth Required (Write) | Transfer Time                           |
 | ---------------- | ---------------- | ----------------- | -------------------------- | --------------------------- | ------------------------- | -------------------------- | --------------------------------------- |
@@ -85,12 +91,9 @@ bc.write_to_csv('feeds.csv')
 
 
 
-
-
-
-
 ### About: 
-Ray Bernard is a seasoned technologist specializing in cloud-based platforms, data science, and AI. He co-founded SuprFanz, a revolutionary cloud-based marketing company, and has held key roles at EMC, Ticket Master, and Compaq. As an Affiliate Developer, Systems Engineer, and Community Advocate, he demonstrated exceptional technical prowess and innovative thinking. Ray also taught Internet/Intranet Management & Design at Columbia University, further contributing to the field. With his vast experience and proactive problem-solving approach, he consistently drives digital transformation. 
+Ray Bernard is a seasoned technologist specializing in cloud-based platforms, data science, and AI. He co-founded SuprFanz, a revolutionary cloud-based marketing company, and has held key roles at EMC, Dell, and Compaq/Dec. As an Affiliate Developer at Ticketmast, Systems Engineer, and Community Advocate, he demonstrated exceptional technical prowess and innovative thinking. Ray also taught Internet/Intranet Management & Design at Columbia University, further contributing to the field. With his vast experience and proactive problem-solving approach, he consistently drives digital transformation. 
+
 Contact him: ray.bernard@outlook.com 
 LinkedIn : https://www.linkedin.com/in/ray-bernard-960382/
 Git : https://github.com/raymondbernard/
