@@ -84,15 +84,17 @@ bc.write_to_csv('feeds.csv')
 
 ### Output 
 
-| Media Throughput | Read/Write Ratio | Initial Data Size | Disk Space Required (Read) | Disk Space Required (Write) | Bandwidth Required (Read) | Bandwidth Required (Write) | Transfer Time                           |
-| ---------------- | ---------------- | ----------------- | -------------------------- | --------------------------- | ------------------------- | -------------------------- | --------------------------------------- |
-| 1.0 Gbps         | 50:50            | 1.0 TB            | 62.5 MBps                  | 62.5 MBps                   | 500.0 Mbps                | 500.0 Mbps                 | 2 hours 13 minutes 20.0 seconds seconds |
-|                  |                  |                   |                            |                             |                           |                            |                                         |
+### Output
+
+| Media Throughput | Read/Write Ratio | Initial Data Size | Disk Space Required (Read) | Disk Space Required (Write) | Bandwidth Required (Read) | Bandwidth Required (Write) | Transfer Time                 |
+| ---------------- | ---------------- | ----------------- | -------------------------- | --------------------------- | ------------------------- | -------------------------- | ----------------------------- |
+| 1.0 Gbps         | 50:50            | 1.0 TB            | 512.0 GB                   | 512.0 GB                    | 500.0 Mbps                | 500.0 Mbps                 | 4 hours, 39 minutes, 37.22 seconds |
+
 
 
 
 ### About: 
-Ray Bernard is a seasoned technologist specializing in cloud-based platforms, data science, and AI. He co-founded SuprFanz, a revolutionary cloud-based marketing company, and has held key roles at EMC, Dell, and Compaq/Dec. As an Affiliate Developer at Ticketmast, Systems Engineer, and Community Advocate, he demonstrated exceptional technical prowess and innovative thinking. Ray also taught Internet/Intranet Management & Design at Columbia University, further contributing to the field. With his vast experience and proactive problem-solving approach, he consistently drives digital transformation. 
+Ray Bernard is a seasoned technologist specializing in cloud-based platforms, data science, and AI. He co-founded SuprFanz, a revolutionary cloud-based marketing company, and has held key roles at EMC, Dell, and Compaq/Dec. As  Systems Engineer, and Community Advocate, he demonstrated exceptional technical prowess and innovative thinking. Ray also taught Internet/Intranet Management & Design at Columbia University, further contributing to the field. With his vast experience and proactive problem-solving approach, he consistently drives digital transformation. 
 
 Contact him: ray.bernard@outlook.com 
 LinkedIn : https://www.linkedin.com/in/ray-bernard-960382/
